@@ -39,17 +39,17 @@ var tieneAtributo = function(obj, atrib) {}
 // multiplicarArray(array); --> Debería devolver 5040 (1 * 2 * 3 * 4 * 5 * 6 * 7)
 var multiplicarArray = function(array) {}
 
-// Implementar el método size dentro del prototype de BinaryTree que deberá retornar el tamaño actual de
-// BinaryTree. En el caso de que el arbol se encuentre vacío deberá retornar cero.
+// Implementar el método size dentro del prototype de Stack que deberá retornar el tamaño actual de
+// Stack. En el caso de que el Stack se encuentre vacío deberá retornar cero.
 // Ejemplo:
-//    var tree = new BinaryTree();
-//    tree.size(); --> 0
-//    tree.add(1);
-//    tree.size(); --> 1
-//    tree.add(2);
-//    tree.add(3);
-//    tree.size(); --> 3
-BinaryTree.prototype.size = function() {}
+//    var stack = new Stack();
+//    stack.size(); --> 0
+//    stack.add(1);
+//    stack.size(); --> 1
+//    stack.add(2);
+//    stack.add(3);
+//    stack.size(); --> 3
+stack.prototype.size = function() {}
 
 // Implementar el método FillZeros dentro del prototype de LinkedList que deberá sobreescribir los elementos que tengan valor cero.
 // el metodo recibirá el valor "value".
